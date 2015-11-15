@@ -1,0 +1,8 @@
+#!/bin/sh
+
+g++ -c hello.cpp
+gcc -c main.c
+
+g++ -o hello main.o hello.o
+
+rm *.o
